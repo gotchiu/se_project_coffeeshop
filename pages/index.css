@@ -138,6 +138,10 @@
   align-items: center;
 }
 
+.recipes__iframe {
+  border: none;
+}
+
 .recipes__video-caption {
   margin: 24px 0 0;
   font-family: "Inter", Arial, sans-serif;
