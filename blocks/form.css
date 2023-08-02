@@ -57,9 +57,6 @@
 }
 
 .form__checkbox {
-  border-radius: 2px;
-  height: 20px;
-  width: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -73,7 +70,7 @@
   margin: 0;
 }
 
-.visible-checkbox {
+.form__checkbox-visible {
   background-color: #fff;
   border: 1px solid #838383;
   border-radius: 2px;
@@ -81,7 +78,7 @@
   width: 20px;
 }
 
-.form__checkbox:checked + .visible-checkbox {
+.form__checkbox:checked + .form__checkbox-visible {
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   background-position: center;
